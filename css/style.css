@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css?family=Cinzel|Roboto|Montserrat");
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+body {
+  background: #d6efc7;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  margin: 0px;
+}
+.container {
+  margin: 8px auto;
+}
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+h1 {
+  font-family: 'Cinzel', serif;
+  font-size: 30px;
+  font-size: bold;
+  color: #184d47;
+}
+h2 {
+  font-size: 23px;
+  font-style: italic;
+  color: #184d47;
+}
+a {
+  text-decoration: none;
+  font-weight: 700;
+  color: #184d47;
+  font-size: 18px;
+  transition: color 0.3s ease;
+  text-align: center;
+}
+  a:hover {
+    color: #008891;
+    text-decoration: underline;
+  }
